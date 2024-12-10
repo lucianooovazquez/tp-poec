@@ -1,0 +1,54 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:rgb(0, 0, 0);
+    color:white;
+}
+header {
+    background-color: rgb(68, 65, 65);
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.section{
+    padding: 80px 20px;
+    margin-top: auto ;
+    text-align: center;
+}
+h2 {
+    font-size: 2.5rem; 
+    margin-bottom: 20px; 
+}
+#poducto{
+ display:flex ;
+ justify-content: center;
+ flex-wrap: wrap;
+ padding: auto;
+
+}
+
+.producto {
+ background-color:rgba(15, 14, 14, 0.658) ;
+ border-radius: 10px;
+ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.116);
+ padding: 20px;
+ margin :15px;
+ width: 30%;
+ text-align: center;
+ transition: trasform 0.4s ease;
+
+}
+p{
+ line-height: 1.5;
+ font-size: 1.1rem;
+
+}
+.producto h3 {
+   font-size: 1.5rem;
+   margin-top: 10px;
+}
+ .producto p {
+   font-size: 1.1rem;
+   margin: 10px 0 ; 
+}
